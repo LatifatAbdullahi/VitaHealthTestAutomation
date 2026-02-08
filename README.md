@@ -45,4 +45,3 @@ To run the project locally, do the following:
 - **CI-focused by design**  
   Tests are fast, isolated, and deterministic, making them suitable for running on every pull request. Flaky scenarios (real faults, perf variability) are gated or explicitly controlled.
 
-Overall, the framework prioritizes **clarity, stability, and signal over volume**, reflecting a senior QA approach to automation and release readiness.
