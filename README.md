@@ -39,9 +39,15 @@ To run the project locally, do the following:
 - **Risk-based automation**  
   Happy paths (feed load, pagination) and high-risk edges (invalid cursor, empty feed, backend errors) are automated to protect core functionality, while avoiding over-automation of low-signal cases.
 
+
 - **Multiple request contexts via fixtures**  
   Dedicated API contexts (normal user, empty-feed user, fault-injection user) make tests deterministic and eliminate environment coupling inside specs.
 
 - **CI-focused by design**  
   Tests are fast, isolated, and deterministic, making them suitable for running on every pull request. Flaky scenarios (real faults, perf variability) are gated or explicitly controlled.
+
+
+
+### [MobileUI Automation Repository](https://github.com/LatifatAbdullahi/VitaHealthTestAutomation-Mobile/tree/main)
+
 
